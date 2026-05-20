@@ -2,10 +2,10 @@
 
 A grounding tool for people who lose hours to FOMO, ADHD-driven hyperfocus, or just having too much fun on the wrong thing.
 
-It rates your current Claude conversation or project as **High**, **Medium**, or **Low** priority against tiers you define -- then prepends a single line to the response so you stay aware of where your attention is going without breaking your flow.
+It rates your current Claude conversation or project as **High**, **Medium**, or **Low** priority against tiers you define, then prepends a single line to the response so you stay aware of where your attention is going without breaking your flow.
 
 ```
-Priority: Low -- creative side project, unrelated to your high-priority areas.
+Priority: Low: creative side project, unrelated to your high-priority areas.
 ```
 
 That's it. One line. A signal, not a blocker.
@@ -26,8 +26,8 @@ That's it. One line. A signal, not a blocker.
 On first use, the skill walks you through a short setup:
 
 1. What topics are **High** priority for you?
-2. Any **Medium** priority topics? (optional -- Claude infers if not)
-3. Any **Low** priority topics you tend to over-invest in? (optional -- Claude infers if not)
+2. Any **Medium** priority topics? (optional: Claude infers if not)
+3. Any **Low** priority topics you tend to over-invest in? (optional: Claude infers if not)
 4. Run automatically at the start of every new chat? (yes/no)
 
 It then generates a settings block for you to paste into your Claude preferences. After that, it runs silently against those tiers whenever invoked.

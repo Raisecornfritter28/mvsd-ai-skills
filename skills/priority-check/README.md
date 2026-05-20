@@ -101,6 +101,12 @@ Built for Claude.ai and Claude Code. Uses the open SKILL.md standard and should 
 
 ---
 
+## Known limitations
+
+**Settings require a manual paste step.** After setup or reset, the skill generates 
+a config block you paste into your Claude preferences. A future version aims to 
+remove this friction. See [issue #1](../../issues/1) for status.
+
 ## License
 
 MIT

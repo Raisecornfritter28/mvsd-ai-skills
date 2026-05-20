@@ -73,9 +73,10 @@ You can edit this manually at any time, or run `priority-check reset` to regener
 
 ### Claude.ai (web/desktop)
 
-1. Download this repo as a ZIP: **Code → Download ZIP**
-2. In Claude.ai: **Settings → Customize → Skills → Upload**
-3. Upload the ZIP
+1. Navigate to the skill folder in the repo - `skills/priority-check/`
+2. Open `SKILL.md` and download the raw file: **Raw → right-click → Save As**
+3. In Claude.ai: **Settings → Customize → Skills → Upload**
+4. Upload the `SKILL.md` file
 
 ### Claude Code
 
@@ -100,12 +101,6 @@ Restart your Claude Code session after installing.
 Built for Claude.ai and Claude Code. Uses the open SKILL.md standard and should work with other SKILL.md-compatible agents (OpenClaw, Codex CLI, etc.) though these are untested.
 
 ---
-
-## Known limitations
-
-**Settings require a manual paste step.** After setup or reset, the skill generates 
-a config block you paste into your Claude preferences. A future version aims to 
-remove this friction. See [issue #1](../../issues/1) for status.
 
 ## License
 

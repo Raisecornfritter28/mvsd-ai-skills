@@ -2,7 +2,7 @@
 
 A collection of AI skills for Claude and other SKILL.md-compatible agents. Each skill is a focused, self-contained workflow tool built around a specific problem worth solving repeatedly.
 
-Skills are designed to be minimal and purposeful -- one problem, one file, no unnecessary dependencies.
+Skills are designed to be minimal and purposeful.
 
 ---
 
@@ -19,9 +19,9 @@ Skills are designed to be minimal and purposeful -- one problem, one file, no un
 ### Claude.ai (web/desktop)
 
 1. Navigate to the skill folder (e.g. `skills/priority-check/`)
-2. Download the repo as a ZIP: **Code → Download ZIP**
+2. Open `SKILL.md` and download the raw file: **Raw → right-click → Save As**
 3. In Claude.ai: **Settings → Customize → Skills → Upload**
-4. Upload the ZIP file
+4. Upload the `SKILL.md` file
 
 ### Claude Code (terminal)
 

